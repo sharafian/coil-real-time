@@ -9,6 +9,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "node-media-server": "^1.4.3"
+    "http-proxy": "^1.17.0",
+    "koa": "^2.5.3",
+    "koa-router": "^7.4.0",
+    "koa-static": "^5.0.0",
+    "node-media-server": "^1.4.3",
+    "web-monetization-receiver": "^1.0.4"
   }
 }
