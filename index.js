@@ -35,7 +35,6 @@ router.get('/live/*', ctx => {
 
   const reqProxy = new Proxy({}, {
     get: function (obj, prop) {
-      console.log('GET PROPERTY', prop)
       return pass[prop] || ctx.res[prop]
     }
   })
